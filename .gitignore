@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env*
+!.env.example
+next-env.d.ts
+*.tsbuildinfo
+.qa/
+.qa-photos/
+menu-reference/
+.vercel/

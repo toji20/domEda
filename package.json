@@ -1,0 +1,29 @@
+{
+  "name": "park-butovo",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=22.14.0" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/golos-text": "^5.2.0",
+    "@fontsource-variable/literata": "^5.2.0",
+    "lucide-react": "^0.545.0",
+    "motion": "^12.23.0",
+    "next": "^16.0.0",
+    "next-sanity": "^11.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sanity": "^4.10.0",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "~5.9.3"
+  }
+}

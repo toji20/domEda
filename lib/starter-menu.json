@@ -1,0 +1,338 @@
+{
+  "categories": [
+    {
+      "_id": "menu-cat-hot",
+      "name": "Горячие блюда"
+    },
+    {
+      "_id": "menu-cat-cold",
+      "name": "Супы и закуски"
+    },
+    {
+      "_id": "menu-cat-baked",
+      "name": "Хлеб и выпечка"
+    },
+    {
+      "_id": "menu-cat-sweet",
+      "name": "Сладости"
+    }
+  ],
+  "dishes": [
+    {
+      "_id": "menu-levengi",
+      "name": "Левенги",
+      "categoryId": "menu-cat-hot",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 1300,
+          "unit": "за целую курицу"
+        }
+      ],
+      "photo": {
+        "url": "/menu/levengi.webp",
+        "alt": "Левенги",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-shah-plov",
+      "name": "Шах-плов",
+      "categoryId": "menu-cat-hot",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 5000,
+          "unit": "на 10 человек"
+        }
+      ],
+      "photo": {
+        "url": "/menu/shah-plov.webp",
+        "alt": "Шах-плов",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-dolma-listya",
+      "name": "Долма в виноградных листьях",
+      "categoryId": "menu-cat-hot",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 1800,
+          "unit": "за 1 кг"
+        }
+      ],
+      "photo": {
+        "url": "/menu/dolma-listya.webp",
+        "alt": "Долма в виноградных листьях в керамической миске",
+        "illustrative": true,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stuffed_grape_leaves.jpg",
+        "license": "Public Domain, Jon Sullivan"
+      }
+    },
+    {
+      "_id": "menu-dolma-ovoshi",
+      "name": "Долма из овощей",
+      "categoryId": "menu-cat-hot",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 2000,
+          "unit": "за 1 кг"
+        }
+      ],
+      "photo": {
+        "url": "/menu/dolma-ovoshi.webp",
+        "alt": "Долма из овощей",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-dolma-kapusta",
+      "name": "Долма из капусты",
+      "categoryId": "menu-cat-hot",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 1500,
+          "unit": "за 1 кг"
+        }
+      ],
+      "photo": {
+        "url": "/menu/dolma-kapusta.webp",
+        "alt": "Долма из капусты",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-pashtet",
+      "name": "Паштет",
+      "categoryId": "menu-cat-cold",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 1000,
+          "unit": "за 1 кг"
+        }
+      ],
+      "photo": {
+        "url": "/menu/pashtet.webp",
+        "alt": "Паштет",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-dovga",
+      "name": "Довга",
+      "categoryId": "menu-cat-cold",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 1000,
+          "unit": "за 1 л"
+        }
+      ],
+      "photo": {
+        "url": "/menu/dovga.webp",
+        "alt": "Довга",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-gogal",
+      "name": "Гогал",
+      "categoryId": "menu-cat-baked",
+      "portions": [
+        {
+          "_key": "sweet",
+          "label": "Сладкий",
+          "price": 130,
+          "unit": "за штуку"
+        },
+        {
+          "_key": "salty",
+          "label": "Солёный",
+          "price": 130,
+          "unit": "за штуку"
+        }
+      ],
+      "photo": {
+        "url": "/menu/gogal.webp",
+        "alt": "Гогал",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-lavash",
+      "name": "Лаваш",
+      "categoryId": "menu-cat-baked",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 250,
+          "unit": "за 5 штук"
+        }
+      ],
+      "photo": {
+        "url": "/menu/lavash.webp",
+        "alt": "Листы тонкого лаваша на тарелке",
+        "illustrative": true,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lavash_arm%C3%A9nien.jpg",
+        "license": "CC0 1.0, Combrian"
+      }
+    },
+    {
+      "_id": "menu-blinchik",
+      "name": "Блинчик",
+      "categoryId": "menu-cat-baked",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 120,
+          "unit": "за штуку"
+        }
+      ],
+      "photo": {
+        "url": "/menu/blinchik.webp",
+        "alt": "Блинчик",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-sladkiy-hleb",
+      "name": "Сладкий хлеб",
+      "categoryId": "menu-cat-baked",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 250,
+          "unit": "за штуку"
+        }
+      ],
+      "photo": {
+        "url": "/menu/sladkiy-hleb.webp",
+        "alt": "Сладкий хлеб",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-kete",
+      "name": "Кете",
+      "categoryId": "menu-cat-baked",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 50,
+          "unit": "за штуку"
+        }
+      ],
+      "photo": {
+        "url": "/menu/kete.webp",
+        "alt": "Кете",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-kete-garabag",
+      "name": "Кете гарабаг",
+      "categoryId": "menu-cat-baked",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 200,
+          "unit": "за штуку"
+        }
+      ],
+      "photo": {
+        "url": "/menu/kete-garabag.webp",
+        "alt": "Кете гарабаг",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-shekerbura",
+      "name": "Шекербура",
+      "categoryId": "menu-cat-sweet",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 130,
+          "unit": "за штуку"
+        }
+      ],
+      "photo": {
+        "url": "/menu/shekerbura.webp",
+        "alt": "Шекербура",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-badambura",
+      "name": "Бадамбура",
+      "categoryId": "menu-cat-sweet",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 130,
+          "unit": "за штуку"
+        }
+      ],
+      "photo": {
+        "url": "/menu/badambura.webp",
+        "alt": "Бадамбура",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-mutakki",
+      "name": "Мутакки",
+      "categoryId": "menu-cat-sweet",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 100,
+          "unit": "за штуку"
+        }
+      ],
+      "photo": {
+        "url": "/menu/mutakki.webp",
+        "alt": "Мутакки",
+        "illustrative": true,
+        "generated": true
+      }
+    },
+    {
+      "_id": "menu-pakhlava",
+      "name": "Пахлава",
+      "categoryId": "menu-cat-sweet",
+      "portions": [
+        {
+          "_key": "standard",
+          "price": 140,
+          "unit": "за штуку"
+        }
+      ],
+      "photo": {
+        "url": "/menu/pakhlava.webp",
+        "alt": "Пахлава, нарезанная ромбами",
+        "illustrative": true,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pakhlava.jpg",
+        "license": "Public Domain, Arams"
+      }
+    }
+  ]
+}
