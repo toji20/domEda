@@ -48,7 +48,7 @@ export const loadSite = cache(async (): Promise<SiteData> => {
   );
   url.searchParams.set("perspective", "published");
   url.searchParams.set("query", query);
-  const token = process.env.SANITY_READ_TOKEN;
+  const token = process.env.SANITY_READ_TOKEN || process.env.SANITY_API_READ_TOKEN;
   try {
     const response = await fetch(url, {
       headers: token ? { Authorization: "Bearer " + token } : undefined,

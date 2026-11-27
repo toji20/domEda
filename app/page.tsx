@@ -56,7 +56,7 @@ export default async function HomePage() {
               fill preload sizes="(max-width: 760px) 100vw, (max-width: 1240px) 52vw, 635px"
             />
           </div>
-          {(!home.photo || home.photo.illustrative || home.photo.generated) && <figcaption>{home.photo?.generated ? "Иллюстрация ИИ" : "Фото для иллюстрации"}</figcaption>}
+
         </figure>
       </section>
 

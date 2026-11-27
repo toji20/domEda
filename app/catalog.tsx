@@ -119,11 +119,7 @@ export function Catalog({ dishes, categories, tel, emptyMenu }: Pick<SiteData, "
               transition={{ duration: .28, delay: reducedMotion ? 0 : index % 3 * .06 }}>
               {dish.photo?.url && <figure className="dish-photo">
                 <Image src={dish.photo.url} alt={dish.photo.alt || dish.name} fill sizes="(max-width: 600px) 100vw, (max-width: 960px) 50vw, 390px" />
-                {(dish.photo.illustrative || dish.photo.generated) && <figcaption>
-                  {dish.photo.generated ? "Иллюстрация ИИ" : dish.photo.sourceUrl
-                    ? <a href={dish.photo.sourceUrl} target="_blank" rel="noreferrer" title={dish.photo.license}>Фото для иллюстрации</a>
-                    : "Фото для иллюстрации"}
-                </figcaption>}
+
               </figure>}
               <div className="dish-body">
                 <h3>{dish.name}</h3>

@@ -47,7 +47,6 @@
   .hero-figure { position: relative; min-width: 0; }
   .hero-image { position: relative; isolation: isolate; aspect-ratio: 1.24; border-radius: 47% 47% 17px 17px / 30% 30% 17px 17px; overflow: hidden; background: #d8b799; animation: image-reveal 640ms cubic-bezier(.24,.68,.25,1) both; }
   .hero-image img, .dish-photo img { object-fit: cover; }
-  .hero-figure figcaption, .dish-photo figcaption { font-size: .7rem; position: absolute; right: 12px; bottom: 12px; background: var(--cream); color: var(--muted); border-radius: 100px; padding: 3px 9px; }
   .hero-actions .button svg { transition: transform 180ms ease-out; }
   .hero-actions .button:hover svg { transform: translateY(2px); }
   @keyframes heading-in { from { opacity: .35; transform: translateY(13px); } to { opacity: 1; transform: translateY(0); } }
@@ -76,7 +75,6 @@
   .dish-body { display: flex; flex: 1; flex-direction: column; gap: 10px; padding: 20px; }
   .dish:not(:has(.dish-photo)) .dish-body { min-height: 148px; }
   .dish:not(:has(.dish-photo)) .portions { margin-top: .45rem; }
-  .dish-photo figcaption a:hover { text-decoration: underline; }
   .dish-body p, .dish-details { color: var(--muted); overflow-wrap: anywhere; }
   .dish h3 { overflow-wrap: anywhere; }
   .dish-body .unavailable, .unavailable { color: #91321f; font-size: .84rem; }
